@@ -1,0 +1,99 @@
+.gallery{
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+body{
+    margin: 0;
+}
+
+
+.photo-card{
+    max-width: 350px;
+    /* border: 4px groove #ff6550; */
+    margin-bottom: 50px;
+    border: 2px solid rgba(148, 196, 192, 0.21);;
+    border-radius: 10px;
+
+
+}
+
+.photo-card:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px #FBD786, 1px 4px 6px #f7797d;
+}
+.photo{
+    max-width: 350px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.info{
+    display: flex;
+    margin-left: 15px;
+}
+
+
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  input {
+    width: 220px;
+    height: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 8px;
+    outline: none;
+  }
+
+.search-btn {
+margin: 0;
+padding: 0;
+border: none;
+border-radius: 0 5px 5px 0;
+padding-left: 10px;
+padding-right: 10px;
+cursor: pointer;
+}
+.wrapper {
+    width: 100vw;
+    height: 50px;
+    background-color: antiquewhite
+  }
+
+
+
+/* 
+`<div class="photo-card">
+      <a href="${largeImageURL}"> 
+      <img src="${webformatURL}" alt="${tags}" loading="lazy" />
+      </a>
+  
+  <div class="info">
+    <p class="info-item">
+      <b>Likes</b>
+      ${likes}
+    </p>
+    <p class="info-item">
+      <b>Views</b>
+        ${views}
+    </p>
+    <p class="info-item">
+      <b>Comments</b>
+      ${comments}
+    </p>
+    <p class="info-item">
+    
+      <b>Downloads</b>
+        ${downloads}
+      </p>
+  </div>
+</div>`}).join('') */
