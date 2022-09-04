@@ -2,8 +2,11 @@
     display: flex;
     max-width: 1200px;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+
     padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
 }
 body{
     margin: 0;
